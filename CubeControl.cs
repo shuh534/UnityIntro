@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraControl : MonoBehaviour {
+public class CubeControl : MonoBehaviour {
 
     public float mouseSensivity = 100f;
     public GameObject player;
