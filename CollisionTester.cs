@@ -20,6 +20,7 @@ public class CollisionTest : MonoBehaviour
     {
         Debug.Log(collision.gameObject.name + " Collision just happened!");
         // check if the object I am colliding to is called "Wall", if it is, delete "Wall"
+        //* in order for this to work, MAKE SURE YOUR CUBE OBJECT IS NAMED WALL, or matches the name here 
         if(collision.gameObject.name == "Wall"){
             Destroy(collision.gameObject);
         }
